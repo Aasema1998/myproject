@@ -1,0 +1,45 @@
+#background{
+    height:100vh;
+    max-height:725px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rebeccapurple;
+    background-image:linear-gradient(to bottom right,purple,pink) ;
+}
+.main{
+    
+    text-align: center;
+}
+.container{
+    
+    display:grid;
+    grid-template-columns:repeat(3,auto);
+    padding:20px;
+    margin-bottom:20px;
+    
+}
+.grid-item{
+    height:100px;
+    width:100px;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    border: 1px solid white;
+    border-radius:10px;
+    padding:20px;
+    margin:10px;
+    cursor: pointer;
+    color: black;
+    font-size: 100px;
+}
+.restart-button{
+    background-color: black;
+    color: white;
+    font-size:20px;
+    border-radius: 5px;
+    height:60px;
+    width:200px;
+    cursor: pointer;
+}

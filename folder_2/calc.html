@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calc.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="background">
+        <input type="text" class="display" id="display" disabled>
+        <div class="container"> 
+            <div class="control">
+            <button onclick="clearDisplay()" class="clearbtn">
+                <span>C</span>
+                </button>
+            <button onclick="inputValue('%')" class="button">%</button>
+            <button onclick="inputValue('+/-')" class="button">+/-</button>
+            <button onclick="inputValue('/')" class="button">/</button>
+            <button onclick="inputValue('7')" class="button"> 7</button>
+            <button onclick="inputValue('8')" class="button">8</button>
+            <button onclick="inputValue('9')" class="button">9</button>
+            <button onclick="inputValue('*')" class="button">*</button>
+            <button onclick="inputValue('4')" class="button">4</button>
+            <button onclick="inputValue('5')" class="button">5</button>
+            <button onclick="inputValue('6')" class="button">6</button>
+            <button onclick="inputValue('-')" class="button">-</button>
+            <button onclick="inputValue('1')" class="button">1</button>
+            <button onclick="inputValue('2')" class="button">2</button>
+            <button onclick="inputValue('3')" class="button">3</button>
+            <button onclick="inputValue('+')" class="button">+</button>
+            <button onclick="inputValue('.')" class="button">.</button>
+            <button onclick="inputValue('0')" class="button">0</button>
+            <button onclick="backspace()" class="button"> < </button>
+            <button onclick="calculate()" class="button">=</button>    
+        </div>
+    </div>
+    </div>
+    <script src="calc.js"></script> 
+</body>
+</html>
